@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+
+body {
+    display: flex;
+    margin-top: 5em;
+    background-color: #f0f2f5;
+}
+
+
+.container_top {
+    margin-left: 30em;
+    width: 980px;
+    height: 536px;
+}
+
+.logo {
+    width: 370px;
+    height: 200px;
+    position: absolute;
+}
+
+.logo img {
+    margin-top: 85px;
+    width: 240px;
+}
+
+.descricao {
+    width: 500px;
+    margin-top: 12em;
+    position: absolute;
+}
+
+.descricao h3 {
+    font-family: arial;
+    font-size: 28px;
+    font-weight: lighter;
+}
+
+.box {
+    position: absolute;
+    width: 396px;
+    height: 496px;
+    margin-bottom: 45em;
+    margin-left: 35em;
+}
+
+.content {
+    margin-top: 3.5em;
+    border-radius: 12px;
+    box-shadow: 0px 0px 23px 0px rgba(0,0,0,0.1);
+    width: 396px;
+    height: 349px;
+    background-color: rgb(255, 255, 255);
+}
+
+.content_box {
+    display: flex;
+    justify-content: center;
+    height: 132px;
+}
+
+.content_box #email {
+    font-family: arial;
+    position: absolute;
+    padding-left: 20px;
+    font-size: 15.5px;
+    margin-top: 15px;
+    border-radius: 6px;
+    width: 350px;
+    height: 52px;
+    border: solid 1px #e0e0e0;
+    outline: 0;
+}
+
+.content_box #senha {
+    font-family: arial;
+    position: absolute;
+    padding-left: 20px;
+    font-size: 15.5px;
+    margin-top: 80px;
+    border-radius: 6px;
+    width: 350px;
+    height: 52px;
+    border: solid 1px #e0e0e0;
+    outline: 0;
+}
+
+#senha:hover, #email:hover {
+    border: 1px solid #156de0;
+}
+
+.content_box_bottom {
+    margin-left: 20px;
+    width: 350px;
+    height: 130px;
+    border-bottom: 1.3px solid rgba(201, 201, 201, 0.63);
+}
+
+.content_box_bottom #entrar {
+    margin-top: 15px;
+    width: 350px;
+    margin-left: 3px;
+    height: 53px;
+    font-size: 20px;
+    font-family: arial;
+    font-weight: bolder;
+    border-radius: 6px;
+    border: none;
+    color: white;
+    background-color: #1877f2;
+    transition: 0.3s;
+}
+
+#entrar:hover {
+    background-color: #156de0;
+    cursor: pointer;
+}
+
+.restore a {
+    position: absolute;
+    margin-left: 115px;
+    color: #1877f2;
+    font-family: arial;
+    text-decoration: none;
+}
+
+.restore p {
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+#novaconta {
+    font-size: 17px;
+    font-weight: 600;
+    font-family: arial;
+    color: white;
+    background-color: #42b72a;
+    border-radius: 6px;
+    width: 150px;
+    height: 48px;
+    border: none;
+    margin-top: 20px;
+    margin-left: 120px;
+    transition: 0.3s;
+}
+
+#novaconta:hover {
+    background-color: #389b25;
+    cursor: pointer;
+}
+
+#createpages {
+    text-align: center;
+    font-size: 14px;
+    margin-top: 55px;
+    font-family: arial;
+}
+
+#ancoracreate {
+    color: black;
+    text-decoration: none;
+}
+
+#ancoracreate:hover {
+    text-decoration: underline;
+}
